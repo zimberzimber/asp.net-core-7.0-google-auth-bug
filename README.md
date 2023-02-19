@@ -21,7 +21,7 @@ at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1[[System.__Canon, 
 at Microsoft.AspNetCore.Authentication.AuthenticationService+<AuthenticateAsync>d__14.MoveNext()
 ```
 
-The issue is tied to the **projects** framework, not the libraries, as setting the projects version to below 7.x but keeping the projects framework at 7 cause the issue still.
+The issue is tied to the **projects** framework, not the libraries, as setting the libraries version to below 7.x but keeping the projects framework at 7 cause the issue still.
 
 
 ## Expected Behavior
