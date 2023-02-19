@@ -35,3 +35,51 @@ A raised exception if an error has occurred, otherwise not crashing.
 - Install `Microsoft.AspNetCore.Authentication.Google` NuGet package
 - Configure authentication to use the Google provider, with valid `ClientId` and `ClientSecret` (not necessarily connected to an actual client, the value just needs to be valid)
 - Run the project
+
+## `dotnet --info`
+```
+.NET SDK:
+	Version:   7.0.103
+	Commit:    276c71d299
+
+Runtime Environment:
+	OS Name:     Windows
+	OS Version:  10.0.19043
+	OS Platform: Windows
+	RID:         win10-x64
+	Base Path:   C:\Program Files\dotnet\sdk\7.0.103\
+
+Host:
+	Version:      7.0.3
+	Architecture: x64
+	Commit:       0a2bda10e8
+
+.NET SDKs installed:
+	3.0.103 [C:\Program Files\dotnet\sdk]
+	3.1.422 [C:\Program Files\dotnet\sdk]
+	7.0.103 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+	Microsoft.AspNetCore.App 3.0.3 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+	Microsoft.AspNetCore.App 3.1.28 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+	Microsoft.AspNetCore.App 6.0.14 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+	Microsoft.AspNetCore.App 7.0.3 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+	Microsoft.NETCore.App 3.0.3 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+	Microsoft.NETCore.App 3.1.28 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+	Microsoft.NETCore.App 6.0.14 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+	Microsoft.NETCore.App 7.0.3 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+	Microsoft.WindowsDesktop.App 3.0.3 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+	Microsoft.WindowsDesktop.App 3.1.28 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+	Microsoft.WindowsDesktop.App 6.0.14 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+	Microsoft.WindowsDesktop.App 7.0.3 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+	x86   [C:\Program Files (x86)\dotnet]
+		registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+	Not set
+
+global.json file:
+	Not found
+```
