@@ -1,6 +1,8 @@
 # asp.net-core-7.0-google-auth-bug
 Reporting a bug in ASP.NET Core in .NET 7 with the Google authentication library
 
+[Link to opened issue](https://github.com/dotnet/aspnetcore/issues/46743)
+
 **.NET Version 7.0.103**
 
 ## The Issue
